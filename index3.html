@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS</title>
+</head>
+<body>
+    <h1 align="center">Đăng Ký Thành Viên</h1>
+    <form action="#" name="myForm">
+        <table align="center" cellpadding="15">
+            <tr>
+                <td>Họ tên *</td>
+                <td><input type="text" name="name" id="validName" size="33"></td>
+            </tr>
+            <tr>
+                <td>Tên tài khoản *</td>
+                <td><input type="text" name="username" id="validUserName" size="33"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu *</td>
+                <td><input type="password" name="password" id="validPassWord" size="33"></td>
+            </tr>
+            <tr>
+                <td>Nhập lại mật khẩu</td>
+                <td><input type="password" name="repassword" id="validRePassWord" size="33"></td>
+            </tr>
+            <tr>
+                <td>Email *</td>
+                <td><input type="text" name="email" id="validEmail" size="33"></td>
+            </tr>
+            <tr>
+                <td>SDT *</td>
+                <td><input type="text" name="phone" id="validPhone" size="33"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="address" id="validAddress" cols="35" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button onclick="return checkValidation()">Đăng ký</button></td>
+            </tr>
+        </table>
+    </form>
+    <script src="script3.js"></script>
+</body>
+</html>
